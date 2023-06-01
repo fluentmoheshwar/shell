@@ -9,4 +9,6 @@ echo Installing gsudo...
 winget install gsudo
 refreshenv.bat
 echo Running PowerShell Script...
+mkdir %USERPROFILE%\Documents\PowerShell
+mkdir %USERPROFILE%\OneDrive\Documents\PowerShell
 pwsh.exe -ExecutionPolicy Bypass -Command ".\script.ps1"
