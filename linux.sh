@@ -4,7 +4,8 @@ apt update && apt install -y curl
 curl -sS https://starship.rs/install.sh | sh
 
 echo Copying Starship Config...
-cp -r -f .config/starship.toml ~/.config/starship.toml
+mkdir -p ~/.config
+cp -r -f ./.config/starship.toml ~/.config/starship.toml
 
 echo Instaling PowerShell...
 # Update the list of packages
@@ -18,11 +19,10 @@ dpkg -i packages-microsoft-prod.deb
 # Delete the the Microsoft repository GPG keys file
 rm packages-microsoft-prod.deb
 # Update the list of packages after we added packages.microsoft.com
-sudo apt update
+apt update
 # Install PowerShell
-sudo apt install -y powershell
+apt install -y powershell
 
 echo Running PowerShell Script...
 mkdir -p ~/.config/powershell
-pwsh -ExecutionPolicy Bypass -Command ".\script.ps1"
-
+pwsh -ExecutionPolicy Bypass -Command "./script.ps1"

@@ -6,11 +6,12 @@ echo Installing Starship...
 curl -sS https://starship.rs/install.sh | sh
 
 echo Copying Starship Config...
-cp -r -f .config/starship.toml ~/.config/starship.toml
+mkdir -p ~/.config
+cp -r -f ./.config/starship.toml ~/.config/starship.toml
 
 echo Instaling PowerShell...
 brew install --cask powershell
 
 echo Running PowerShell Script...
 mkdir -p ~/.config/powershell
-pwsh -ExecutionPolicy Bypass -Command ".\script.ps1"
+pwsh -ExecutionPolicy Bypass -Command "./script.ps1"
