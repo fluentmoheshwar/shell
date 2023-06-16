@@ -10,8 +10,6 @@ Run windows.bat as admin.
 
 ## Linux
 
-Bug: PowerType not working
-
 ```bash
 sudo bash ./linux.sh
 ```
