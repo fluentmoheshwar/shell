@@ -1,2 +1,3 @@
 * text lf
 *.bat text crlf
+*.png binary
