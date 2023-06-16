@@ -6,6 +6,12 @@ I'm super excited to share with you my awesome shell setup that makes my coding 
 
 All you need to do is clone this repo and run appropriate script. It will install everything you need in a snap (excluding terminal and nerd font).
 
+Features:
+
+- Command Completion with [PSReadLine](https://github.com/PowerShell/PSReadLine) and [PowerType](https://github.com/AnderssonPeter/PowerType)
+- sudo on windows using [gsudo](https://github.com/gerardog/gsudo)
+- Beautiful Prompt Using [starship](https://starship.rs)
+
 ## Windows
 
 Run windows.bat
