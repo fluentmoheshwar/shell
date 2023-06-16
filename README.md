@@ -22,4 +22,4 @@ Warning: This script isn't tested! I don't have a mac.
 sudo bash ./mac.sh
 ```
 
-You need to use one of these terminals: Windows Terminal/Hyper/iTerm/kitty/Visual Studio Code Terminal (others might work too). They are all amazing and customizable. You also need to use a [nerd font](https://www.nerdfonts.com/font-downloads). Trust me, you will love the icons and glyphs. 😎 Remember to set the nerd font and powershell as your default shell in your terminal.
+You need to use one of these terminals: [Supported Terminals](https://github.com/tonsky/FiraCode#terminal-compatibility-list) You also need to use a [nerd font](https://www.nerdfonts.com/font-downloads). Trust me, you will love the icons and glyphs. 😎 Remember to set the nerd font and powershell as your default shell in your terminal.
