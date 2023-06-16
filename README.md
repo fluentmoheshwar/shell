@@ -22,4 +22,6 @@ Warning: This script isn't tested! I don't have a mac.
 sudo bash ./mac.sh
 ```
 
+If that didn't work probably script.ps1 didn't run properly. Start a powershell session and copy the contents of script.ps1 and paste it. I will fix it ASAP!
+
 You need to use one of these terminals: [Supported Terminals](https://github.com/tonsky/FiraCode#terminal-compatibility-list) You also need to use a [nerd font](https://www.nerdfonts.com/font-downloads). Trust me, you will love the icons and glyphs. 😎 Remember to set the nerd font and powershell as your default shell in your terminal.
