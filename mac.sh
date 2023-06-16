@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+
 echo Installing Homebrew...
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
@@ -7,11 +8,17 @@ curl -sS https://starship.rs/install.sh | sh
 
 echo Copying Starship Config...
 mkdir -p ~/.config
-cp -r -f ./.config/starship.toml ~/.config/starship.toml
+cp -r -f ./starship.toml ~/.config/starship.toml
 
 echo Instaling PowerShell...
 brew install --cask powershell
 
-echo Running PowerShell Script...
+echo Installing PowerShell Modules...
+pwsh -Command "Install-Module PSReadLine -AllowPrerelease -Force"
+pwsh -Command "Install-Module PowerType -AllowPrerelease -Force"
+pwsh -Command "Install-Module PowerType -AllowPrerelease -Force"
+pwsh -Command "Install-Module -Name Terminal-Icons -AllowPrerelease -Force"
+
+echo Copying PowerShell Profile...
 mkdir -p ~/.config/powershell
-pwsh -ExecutionPolicy Bypass -Command "./script.ps1"
+cp -r -f ./Microsoft.PowerShell_profile.ps1 ~/.config/powershell/Microsoft.PowerShell_profile.ps1
