@@ -13,13 +13,13 @@ winget install --id Microsoft.Powershell --source winget
 echo Installing gsudo...
 winget install gsudo
 
-refreshenv.bat
+SET path=%path%;"C:\Program Files\PowerShell\7\";"C:\Program Files\starship\bin\";"C:\Program Files\gsudo\Current"
 
 echo Installing PowerShell Modules...
-pwsh.exe -Command "Install-Module PSReadLine -AllowPrerelease -Force"
-pwsh.exe -Command "Install-Module PowerType -AllowPrerelease -Force"
-pwsh.exe -Command "Install-Module PowerType -AllowPrerelease -Force"
-pwsh.exe -Command "Install-Module -Name Terminal-Icons -AllowPrerelease -Force"
+pwsh.exe -Command "Install-Module PSReadLine -AllowPrerelease -Force -Scope CurrentUser"
+pwsh.exe -Command "Install-Module PowerType -AllowPrerelease -Force -Scope CurrentUser"
+pwsh.exe -Command "Install-Module PowerType -AllowPrerelease -Force -Scope CurrentUser"
+pwsh.exe -Command "Install-Module -Name Terminal-Icons -AllowPrerelease -Force -Scope CurrentUser"
 
 
 echo Copying PowerShell Profile...

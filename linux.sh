@@ -25,10 +25,10 @@ sudo apt update
 sudo apt install -y powershell
 
 echo Installing PowerShell Modules...
-pwsh -Command "Install-Module PSReadLine -AllowPrerelease -Force"
-pwsh -Command "Install-Module PowerType -AllowPrerelease -Force"
-pwsh -Command "Install-Module PowerType -AllowPrerelease -Force"
-pwsh -Command "Install-Module -Name Terminal-Icons -AllowPrerelease -Force"
+pwsh -Command "Install-Module PSReadLine -AllowPrerelease -Force -Scope CurrentUser"
+pwsh -Command "Install-Module PowerType -AllowPrerelease -Force -Scope CurrentUser"
+pwsh -Command "Install-Module PowerType -AllowPrerelease -Force -Scope CurrentUser"
+pwsh -Command "Install-Module -Name Terminal-Icons -AllowPrerelease -Force -Scope CurrentUser"
 
 echo Copying PowerShell Profile...
 mkdir -p ~/.config/powershell
