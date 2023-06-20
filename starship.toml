@@ -31,7 +31,8 @@ $cmd_duration\
 $status\
 [ ](fg:#FFFFFF)\
 """
-
+command_timeout = 5000
+scan_timeout = 70
 # Disable the blank line at the start of the prompt
 # add_newline = false
 
