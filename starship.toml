@@ -1,12 +1,12 @@
 format = """
-[](#9A348E)\
+[](#182C61)\
 $username\
-[](bg:#DA627D fg:#9A348E)\
+[](fg:#182C61 bg:#01579B)\
 $directory\
-[](fg:#DA627D bg:#FCA17D)\
+[](fg:#01579B bg:#16a085)\
 $git_branch\
 $git_status\
-[](fg:#FCA17D bg:#86BBD8)\
+[](fg:#16a085 bg:#1B5E20)\
 $c\
 $python\
 $elixir\
@@ -20,29 +20,29 @@ $nodejs\
 $nim\
 $rust\
 $scala\
-[](fg:#86BBD8 bg:#06969A)\
+[](fg:#1B5E20 bg:#2980b9)\
 $docker_context\
-[](fg:#06969A bg:#33658A)\
+[](fg:#2980b9 bg:#3F51B5)\
 $time\
-[](fg:#33658A bg:#33659B)\
+[](fg:#3F51B5 bg:#1A237E)\
 $cmd_duration\
-[](fg:#33658A bg:#FFFFFF)\
+[](fg:#1A237E bg:#2c3e50)\
 $status\
-[ ](fg:#FFFFFF)\
+[ ](fg:#2c3e50)\
 """
 command_timeout = 5000
 scan_timeout = 70
 
 [username]
 show_always = true
-style_user = "bg:#9A348E"
-style_root = "bg:#9A348E"
+style_user = "bg:#182C61"
+style_root = "bg:#182C61"
 format = "[$user ]($style)"
 disabled = false
 
 
 [directory]
-style = "bg:#DA627D"
+style = "bg:#01579B"
 format = "[ $path ]($style)"
 truncation_length = 3
 truncation_symbol = "…/"
@@ -57,96 +57,96 @@ truncation_symbol = "…/"
 
 [c]
 symbol = " "
-style = "bg:#86BBD8"
+style = "bg:#1B5E20"
 format = "[ $symbol ($version) ]($style)"
 
 [python]
 symbol = " "
-style = "bg:#86BBD8 fg:#000000"
+style = "bg:#1B5E20"
 format = "[ $symbol ($version) ]($style)"
 
 
 [elixir]
 symbol = " "
-style = "bg:#86BBD8 fg:#000000"
+style = "bg:#1B5E20"
 format = "[ $symbol ($version) ]($style)"
 
 [elm]
 symbol = " "
-style = "bg:#86BBD8 fg:#000000"
+style = "bg:#1B5E20"
 format = "[ $symbol ($version) ]($style)"
 
 [git_branch]
 symbol = ""
-style = "bg:#FCA17D fg:#000000"
+style = "bg:#16a085 fg:#000000"
 format = "[ $symbol $branch ]($style)"
 
 [git_status]
-style = "bg:#FCA17D fg:#000000"
+style = "bg:#16a085 fg:#000000"
 format = "[$all_status$ahead_behind ]($style)"
 
 [golang]
 symbol = " "
-style = "bg:#86BBD8 fg:#000000"
+style = "bg:#1B5E20"
 format = "[ $symbol ($version) ]($style)"
 
 [gradle]
-style = "bg:#86BBD8 fg:#000000"
+style = "bg:#1B5E20"
 format = "[ $symbol ($version) ]($style)"
 
 [haskell]
 symbol = " "
-style = "bg:#86BBD8 fg:#000000"
+style = "bg:#1B5E20"
 format = "[ $symbol ($version) ]($style)"
 
 [java]
 symbol = " "
-style = "bg:#86BBD8 fg:#000000"
+style = "bg:#1B5E20"
 format = "[ $symbol ($version) ]($style)"
 
 [julia]
 symbol = " "
-style = "bg:#86BBD8 fg:#000000"
+style = "bg:#1B5E20"
 format = "[ $symbol ($version) ]($style)"
 
 [nodejs]
 symbol = ""
-style = "bg:#86BBD8 fg:#000000"
+style = "bg:#1B5E20"
 format = "[ $symbol ($version) ]($style)"
 
 [nim]
 symbol = " "
-style = "bg:#86BBD8 fg:#000000"
+style = "bg:#1B5E20"
 format = "[ $symbol ($version) ]($style)"
 
 [rust]
 symbol = ""
-style = "bg:#86BBD8 fg:#000000"
+style = "bg:#1B5E20"
 format = "[ $symbol ($version) ]($style)"
 
 [scala]
 symbol = " "
-style = "bg:#86BBD8 fg:#000000"
+style = "bg:#1B5E20"
 format = "[ $symbol ($version) ]($style)"
 
 [docker_context]
 symbol = " "
-style = "bg:#06969A"
+style = "bg:#2980b9"
 format = "[ $symbol $context ]($style) $path"
 
 [time]
 disabled = false
 time_format = "%r" # Hour:Minute:Seconds AM/PM Format
-style = "bg:#33658A fg:#000000"
+style = "bg:#3F51B5 fg:#000000"
 format = "[ $time ]($style)"
 
 [cmd_duration]
-style = "bg:#33658A fg:#000000"
+style = "bg:#1A237E"
 min_time = 500
-format = "[$duration]($style)"
+format = "[ took: $duration ]($style)"
 
 [status]
-style = "bg:#FFFFFF fg:#000000"
+style = "bg:#2c3e50"
 symbol = " 💔 "
 success_symbol = " ❤️ "
 format = "[$symbol$common_meaning$signal_name$maybe_int]($style)"
