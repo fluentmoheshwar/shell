@@ -63,71 +63,71 @@ format = "[ $symbol ($version) ]($style)"
 [python]
 symbol = " "
 pyenv_version_name = true
-style = "bg:#86BBD8"
+style = "bg:#86BBD8 fg:#000000"
 format = "[ $symbol ($version) ]($style)"
 
 
 [elixir]
 symbol = " "
-style = "bg:#86BBD8"
+style = "bg:#86BBD8 fg:#000000"
 format = "[ $symbol ($version) ]($style)"
 
 [elm]
 symbol = " "
-style = "bg:#86BBD8"
+style = "bg:#86BBD8 fg:#000000"
 format = "[ $symbol ($version) ]($style)"
 
 [git_branch]
 symbol = ""
-style = "bg:#FCA17D"
+style = "bg:#FCA17D fg:#000000"
 format = "[ $symbol $branch ]($style)"
 
 [git_status]
-style = "bg:#FCA17D"
+style = "bg:#FCA17D fg:#000000"
 format = "[$all_status$ahead_behind ]($style)"
 
 [golang]
 symbol = " "
-style = "bg:#86BBD8"
+style = "bg:#86BBD8 fg:#000000"
 format = "[ $symbol ($version) ]($style)"
 
 [gradle]
-style = "bg:#86BBD8"
+style = "bg:#86BBD8 fg:#000000"
 format = "[ $symbol ($version) ]($style)"
 
 [haskell]
 symbol = " "
-style = "bg:#86BBD8"
+style = "bg:#86BBD8 fg:#000000"
 format = "[ $symbol ($version) ]($style)"
 
 [java]
 symbol = " "
-style = "bg:#86BBD8"
+style = "bg:#86BBD8 fg:#000000"
 format = "[ $symbol ($version) ]($style)"
 
 [julia]
 symbol = " "
-style = "bg:#86BBD8"
+style = "bg:#86BBD8 fg:#000000"
 format = "[ $symbol ($version) ]($style)"
 
 [nodejs]
 symbol = ""
-style = "bg:#86BBD8"
+style = "bg:#86BBD8 fg:#000000"
 format = "[ $symbol ($version) ]($style)"
 
 [nim]
 symbol = " "
-style = "bg:#86BBD8"
+style = "bg:#86BBD8 fg:#000000"
 format = "[ $symbol ($version) ]($style)"
 
 [rust]
 symbol = ""
-style = "bg:#86BBD8"
+style = "bg:#86BBD8 fg:#000000"
 format = "[ $symbol ($version) ]($style)"
 
 [scala]
 symbol = " "
-style = "bg:#86BBD8"
+style = "bg:#86BBD8 fg:#000000"
 format = "[ $symbol ($version) ]($style)"
 
 [docker_context]
@@ -138,11 +138,11 @@ format = "[ $symbol $context ]($style) $path"
 [time]
 disabled = false
 time_format = "%r" # Hour:Minute:Seconds AM/PM Format
-style = "bg:#33658A"
+style = "bg:#33658A fg:#000000"
 format = "[ $time ]($style)"
 
 [cmd_duration]
-style = "bg:#33658A"
+style = "bg:#33658A fg:#000000"
 min_time = 500
 format = "[$duration]($style)"
 
