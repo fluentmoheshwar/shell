@@ -62,7 +62,6 @@ format = "[ $symbol ($version) ]($style)"
 
 [python]
 symbol = " "
-pyenv_version_name = true
 style = "bg:#86BBD8 fg:#000000"
 format = "[ $symbol ($version) ]($style)"
 
