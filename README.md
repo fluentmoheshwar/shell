@@ -1,6 +1,6 @@
 # My shell setup
 
-![My shell setup](./images/wintermfinal.png)
+![My shell setup](./images/banner.png)
 
 I'm super excited to share with you my awesome shell setup that makes my coding life so much easier and fun! 😍
 
@@ -12,23 +12,31 @@ Features:
 - sudo on windows using [gsudo](https://github.com/gerardog/gsudo)
 - Beautiful Prompt Using [starship](https://starship.rs)
 
-## Windows
+## Installation
+
+### Windows
 
 Run windows.bat
 
-## Linux
+### Linux
 
 ```bash
 bash ./linux.sh
 ```
 
-## Mac
+Note: Only Ubuntu LTS and it's derivatives is supported.
+
+### Mac
 
 Warning: This script isn't tested! I don't have a mac.
 
 ```bash
 bash ./mac.sh
 ```
+
+## Updating
+
+use `git pull` and re-run appropriate script.
 
 You need to use one of these terminals: [Supported Terminals](https://github.com/tonsky/FiraCode#terminal-compatibility-list) You also need to use a [nerd font](https://www.nerdfonts.com/font-downloads). Trust me, you will love the icons and glyphs. 😎 Remember to set the nerd font and powershell as your default shell in your terminal. I'm showing setup instruction for Windows Terminal, Hyper and Visual Studio Code Integrated Terminal below.
 
@@ -69,15 +77,11 @@ module.exports = {
     // shell: '/usr/bin/pwsh',
     // Uncomment below for Windows
     // shell: 'C:\\Program Files\\PowerShell\\7\\pwsh.exe'
-    fontFamily: "CaskaydiaCove NF",
+    fontFamily: "CaskaydiaCove Nerd Font Mono",
     disableLigatures: false,
   },
 };
 ```
-
-Final result:
-
-![Final Result of Hyper](./images/hyperfinal.png)
 
 ### Visual Studio Code Integrated Terminal
 
@@ -96,6 +100,6 @@ Add the following code in your settings.json file.
   "terminal.integrated.defaultProfile.linux": "pwsh",
   "terminal.integrated.defaultProfile.osx": "pwsh",
   "terminal.integrated.shellIntegration.suggestEnabled": true,
-  "editor.fontFamily": "CaskaydiaCove NF"
+  "editor.fontFamily": "CaskaydiaCove Nerd Font Mono"
 }
 ```
