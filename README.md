@@ -57,10 +57,6 @@ Go to Default > Appearance > Set your nerd font as default
 
 Restart terminal
 
-Final Result:
-
-![Final Result of Windows Terminal](./images/wintermfinal.png)
-
 ### Hyper
 
 Hyper>Edit>Preferences
