@@ -11,7 +11,7 @@ Features:
 - Command Completion with [PSReadLine](https://github.com/PowerShell/PSReadLine) and [PowerType](https://github.com/AnderssonPeter/PowerType)
 - sudo on windows using [gsudo](https://github.com/gerardog/gsudo)
 - Beautiful Prompt Using [starship](https://starship.rs)
-- Icons for `Get-ChildItem` and it's aliases (`dir ` or `ls`) using [Terminal-Icons](https://github.com/devblackops/Terminal-Icons)
+- Icons for `Get-ChildItem` and it's aliases (`dir` or `ls`) using [Terminal-Icons](https://github.com/devblackops/Terminal-Icons)
 
 ## Installation
 
