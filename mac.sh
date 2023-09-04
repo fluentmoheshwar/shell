@@ -16,7 +16,6 @@ brew install --cask powershell
 echo Installing PowerShell Modules...
 pwsh -NoProfile -Command "Install-Module PSReadLine -AllowPrerelease -Force -Scope CurrentUser"
 pwsh -NoProfile -Command "Install-Module PowerType -AllowPrerelease -Force -Scope CurrentUser"
-pwsh -NoProfile -Command "Install-Module PowerType -AllowPrerelease -Force -Scope CurrentUser"
 pwsh -NoProfile -Command "Install-Module -Name Terminal-Icons -AllowPrerelease -Force -Scope CurrentUser"
 
 echo Copying PowerShell Profile...

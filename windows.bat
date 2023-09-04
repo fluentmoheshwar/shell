@@ -18,7 +18,6 @@ SET path=%path%;"C:\Program Files\PowerShell\7\";"C:\Program Files\starship\bin\
 echo Installing PowerShell Modules...
 pwsh.exe -NoProfile -Command "Install-Module PSReadLine -AllowPrerelease -Force -Scope CurrentUser"
 pwsh.exe -NoProfile -Command "Install-Module PowerType -AllowPrerelease -Force -Scope CurrentUser"
-pwsh.exe -NoProfile -Command "Install-Module PowerType -AllowPrerelease -Force -Scope CurrentUser"
 pwsh.exe -NoProfile -Command "Install-Module -Name Terminal-Icons -AllowPrerelease -Force -Scope CurrentUser"
 
 
