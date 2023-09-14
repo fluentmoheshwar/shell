@@ -1,4 +1,3 @@
-$env:VIRTUAL_ENV_DISABLE_PROMPT = 1
 Import-Module PSReadLine
 Enable-PowerType
 Set-PSReadLineOption -PredictionSource HistoryAndPlugin -PredictionViewStyle ListView
