@@ -46,3 +46,6 @@ copy Microsoft.PowerShell_profile.ps1 %USERPROFILE%\Documents\PowerShell
 :yes
 mkdir %USERPROFILE%\OneDrive\Documents\PowerShell
 copy Microsoft.PowerShell_profile.ps1 %USERPROFILE%\OneDrive\Documents\Microsoft.PowerShell_profile.ps1
+
+echo Installation Successful!
+echo Please configure your terminal to use PowerShell as the default shell and set any nerd font as fonts.

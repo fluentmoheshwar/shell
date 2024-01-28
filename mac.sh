@@ -21,3 +21,6 @@ pwsh -NoProfile -Command "Install-Module -Name Terminal-Icons -AllowPrerelease -
 echo Copying PowerShell Profile...
 mkdir -p ~/.config/powershell
 cp -r -f ./Microsoft.PowerShell_profile.ps1 ~/.config/powershell/Microsoft.PowerShell_profile.ps1
+
+echo Installation Successful!
+echo Please configure your terminal to use PowerShell as the default shell and set any nerd font as fonts.
