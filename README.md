@@ -21,11 +21,19 @@ Run windows.bat
 
 ### Linux
 
+#### Ubuntu
+
 ```bash
-bash ./linux.sh
+bash ./ubuntu.sh
 ```
 
 Note: Only Ubuntu LTS and it's derivatives is supported.
+
+#### Fedora/Alma Linux/RHEL/CentOS
+
+```bash
+bash ./fedora.sh
+```
 
 ### Mac
 
