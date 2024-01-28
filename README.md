@@ -21,7 +21,7 @@ Run windows.bat
 
 ### Linux
 
-#### Ubuntu
+#### Ubuntu/Linux Mint/Pop OS/KDE Neon
 
 ```bash
 bash ./ubuntu.sh
@@ -29,7 +29,7 @@ bash ./ubuntu.sh
 
 Note: Only Ubuntu LTS and it's derivatives is supported.
 
-#### Fedora/Alma Linux/RHEL/CentOS
+#### Fedora/Alma Linux/RHEL/CentOS/Nobara
 
 ```bash
 bash ./fedora.sh
