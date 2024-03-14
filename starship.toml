@@ -49,23 +49,23 @@ truncation_symbol = "…/"
 
 
 [c]
-symbol = " "
+symbol = ""
 style = "bg:#1B5E20"
 format = "[ $symbol ($version) ]($style)"
 
 [python]
-symbol = " "
+symbol = ""
 style = "bg:#1B5E20"
 format = "[ $symbol ($version) ]($style)"
 
 
 [elixir]
-symbol = " "
+symbol = ""
 style = "bg:#1B5E20"
 format = "[ $symbol ($version) ]($style)"
 
 [elm]
-symbol = " "
+symbol = ""
 style = "bg:#1B5E20"
 format = "[ $symbol ($version) ]($style)"
 
@@ -79,7 +79,7 @@ style = "bg:#16a085 fg:#000000"
 format = "[$all_status$ahead_behind ]($style)"
 
 [golang]
-symbol = " "
+symbol = ""
 style = "bg:#1B5E20"
 format = "[ $symbol ($version) ]($style)"
 
@@ -88,17 +88,17 @@ style = "bg:#1B5E20"
 format = "[ $symbol ($version) ]($style)"
 
 [haskell]
-symbol = " "
+symbol = ""
 style = "bg:#1B5E20"
 format = "[ $symbol ($version) ]($style)"
 
 [java]
-symbol = " "
+symbol = ""
 style = "bg:#1B5E20"
 format = "[ $symbol ($version) ]($style)"
 
 [julia]
-symbol = " "
+symbol = ""
 style = "bg:#1B5E20"
 format = "[ $symbol ($version) ]($style)"
 
@@ -108,7 +108,7 @@ style = "bg:#1B5E20"
 format = "[ $symbol ($version) ]($style)"
 
 [nim]
-symbol = " "
+symbol = ""
 style = "bg:#1B5E20"
 format = "[ $symbol ($version) ]($style)"
 
@@ -118,7 +118,7 @@ style = "bg:#1B5E20"
 format = "[ $symbol ($version) ]($style)"
 
 [scala]
-symbol = " "
+symbol = ""
 style = "bg:#1B5E20"
 format = "[ $symbol ($version) ]($style)"
 
