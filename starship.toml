@@ -141,7 +141,7 @@ format = "[ 󰅒 took: $duration ]($style)"
 [status]
 style = "bg:#2c3e50"
 symbol = "💔 "
-success_symbol = "❤️"
+success_symbol = "❤️ "
 format = "[ $symbol$common_meaning$signal_name$maybe_int ]($style)"
 map_symbol = true
 disabled = false
