@@ -37,35 +37,35 @@ scan_timeout = 70
 show_always = true
 style_user = "bg:#182C61"
 style_root = "bg:#182C61"
-format = "[󰀉 $user ]($style)"
+format = "[ $user ]($style)"
 disabled = false
 
 
 [directory]
 style = "bg:#01579B"
-format = "[ 󰉋 $path ]($style)"
+format = "[  $path ]($style)"
 truncation_length = 3
 truncation_symbol = "…/"
 
 
 [c]
-symbol = ""
+symbol = " "
 style = "bg:#1B5E20"
 format = "[ $symbol ($version) ]($style)"
 
 [python]
-symbol = ""
+symbol = " "
 style = "bg:#1B5E20"
 format = "[ $symbol ($version) ]($style)"
 
 
 [elixir]
-symbol = ""
+symbol = " "
 style = "bg:#1B5E20"
 format = "[ $symbol ($version) ]($style)"
 
 [elm]
-symbol = ""
+symbol = " "
 style = "bg:#1B5E20"
 format = "[ $symbol ($version) ]($style)"
 
@@ -79,7 +79,7 @@ style = "bg:#16a085 fg:#000000"
 format = "[$all_status$ahead_behind ]($style)"
 
 [golang]
-symbol = ""
+symbol = " "
 style = "bg:#1B5E20"
 format = "[ $symbol ($version) ]($style)"
 
@@ -88,17 +88,17 @@ style = "bg:#1B5E20"
 format = "[ $symbol ($version) ]($style)"
 
 [haskell]
-symbol = ""
+symbol = " "
 style = "bg:#1B5E20"
 format = "[ $symbol ($version) ]($style)"
 
 [java]
-symbol = ""
+symbol = " "
 style = "bg:#1B5E20"
 format = "[ $symbol ($version) ]($style)"
 
 [julia]
-symbol = ""
+symbol = " "
 style = "bg:#1B5E20"
 format = "[ $symbol ($version) ]($style)"
 
@@ -108,7 +108,7 @@ style = "bg:#1B5E20"
 format = "[ $symbol ($version) ]($style)"
 
 [nim]
-symbol = ""
+symbol = " "
 style = "bg:#1B5E20"
 format = "[ $symbol ($version) ]($style)"
 
@@ -118,7 +118,7 @@ style = "bg:#1B5E20"
 format = "[ $symbol ($version) ]($style)"
 
 [scala]
-symbol = ""
+symbol = " "
 style = "bg:#1B5E20"
 format = "[ $symbol ($version) ]($style)"
 
@@ -131,12 +131,12 @@ format = "[ $symbol $context ]($style) $path"
 disabled = false
 time_format = "%r" # Hour:Minute:Seconds AM/PM Format
 style = "bg:#3F51B5 fg:#000000"
-format = "[ 󰥔 $time ]($style)"
+format = "[  $time ]($style)"
 
 [cmd_duration]
 style = "bg:#1A237E"
 min_time = 500
-format = "[ 󰅒 took: $duration ]($style)"
+format = "[ took: $duration ]($style)"
 
 [status]
 style = "bg:#2c3e50"
