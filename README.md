@@ -98,12 +98,12 @@ Click Open settings.json icon.
 
 Add the following code in your settings.json file.
 
-```json
+```jsonc
 {
   "terminal.integrated.defaultProfile.windows": "PowerShell",
   "terminal.integrated.defaultProfile.linux": "pwsh",
   "terminal.integrated.defaultProfile.osx": "pwsh",
-  "terminal.integrated.shellIntegration.suggestEnabled": true,
-  "editor.fontFamily": "CaskaydiaCove Nerd Font Mono"
+  "terminal.integrated.windowsUseConptyDll": true,
+  "editor.fontFamily": "Cascadia Code, CaskaydiaCove NF, Fira Code, Noto Sans Bengali" // Change fonts if you need to
 }
 ```
