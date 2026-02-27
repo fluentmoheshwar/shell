@@ -17,7 +17,7 @@ function Invoke-Last {
 
 function Invoke-SudoLast {
     $last = (Get-History -Count 1).CommandLine
-    sudo powershell -Command $last
+    sudo pwsh -Command $last
 }
 
 Set-Alias r! Invoke-Last
