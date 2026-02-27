@@ -9,13 +9,15 @@ All you need to do is clone this repo and run appropriate script. It will instal
 Features:
 
 - Command Completion with [PSReadLine](https://github.com/PowerShell/PSReadLine) and [PowerType](https://github.com/AnderssonPeter/PowerType)
-- sudo on windows using [gsudo](https://github.com/gerardog/gsudo)
+- Few aliases
 - Beautiful Prompt Using [starship](https://starship.rs)
 - Icons for `Get-ChildItem` and it's aliases (`dir` or `ls`) using [Terminal-Icons](https://github.com/devblackops/Terminal-Icons)
 
 ## Installation
 
 ### Windows
+
+Enable `sudo` by going to Settings > System > Advanced
 
 Run windows.bat
 

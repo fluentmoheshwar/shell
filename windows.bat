@@ -10,11 +10,6 @@ copy starship.toml %USERPROFILE%\.config\starship.toml /Y
 echo Installing PowerShell...
 winget install --id Microsoft.Powershell --source winget
 
-echo Installing gsudo...
-winget install gsudo
-
-SET path=%path%;"C:\Program Files\PowerShell\7\";"C:\Program Files\starship\bin\";"C:\Program Files\gsudo\Current"
-
 echo Installing PowerShell Modules...
 pwsh.exe -NoProfile -Command "Install-Module PSReadLine -AllowPrerelease -Force -Scope CurrentUser"
 pwsh.exe -NoProfile -Command "Install-Module PowerType -AllowPrerelease -Force -Scope CurrentUser"
