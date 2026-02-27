@@ -11,6 +11,18 @@ Import-Module -Name Terminal-Icons
 # Initiate starship prompt
 Invoke-Expression (&starship init powershell)
 
+function Invoke-Last {
+    Invoke-History -Id (Get-History -Count 1).Id
+}
+
+function Invoke-SudoLast {
+    $last = (Get-History -Count 1).CommandLine
+    sudo powershell -Command $last
+}
+
+Set-Alias r! Invoke-Last
+Set-Alias rs! Invoke-SudoLast
+
 # Aliases (for windows)
 # Set-Alias which where.exe
 # Set-Alias bash "C:\Program Files\Git\bin\bash.exe"
