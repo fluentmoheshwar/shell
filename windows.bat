@@ -1,7 +1,7 @@
 @echo off
 
 echo Installing Starship...
-winget install starship
+winget install starship --source winget
 
 echo Copying Starship Config...
 mkdir %USERPROFILE%\.config
@@ -9,6 +9,9 @@ copy starship.toml %USERPROFILE%\.config\starship.toml /Y
 
 echo Installing PowerShell...
 winget install --id Microsoft.Powershell --source winget
+
+Installing fonts...
+winget install ryanoasis.CaskaydiaCove -s winget-font
 
 echo Installing PowerShell Modules...
 pwsh.exe -NoProfile -Command "Install-Module PSReadLine -AllowPrerelease -Force -Scope CurrentUser"
