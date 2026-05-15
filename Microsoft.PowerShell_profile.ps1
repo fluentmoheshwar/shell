@@ -7,7 +7,6 @@ Set-PSReadLineOption -EditMode Windows
 # Icons for Get-ChildItem and it's aliases (dir or ls)
 Import-Module -Name Terminal-Icons
 
-
 # Initiate starship prompt
 Invoke-Expression (&starship init powershell)
 
@@ -18,6 +17,10 @@ function Invoke-Last {
 function Invoke-SudoLast {
     $last = (Get-History -Count 1).CommandLine
     sudo pwsh -Command $last
+}
+
+function lsw {
+  Get-ChildItem | Format-Wide
 }
 
 Set-Alias r! Invoke-Last
