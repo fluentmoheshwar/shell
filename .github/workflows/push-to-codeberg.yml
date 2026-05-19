@@ -14,7 +14,6 @@ jobs:
       - uses: actions/checkout@v6
         with:
           ref: ${{ github.head_ref }}
-          token: ${{ secrets.GH_TOKEN }}
 
       - name: Adds ssh tokens
         run: |
